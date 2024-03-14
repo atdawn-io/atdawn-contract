@@ -235,7 +235,7 @@ contract AtDawnToken is ERC20, ERC20Burnable, Ownable {
     mapping (address => bool) private distributeUser;
     
     constructor() ERC20("AtDawn Token", "AD"){
-        total = 1000000000 * (10 ** 18);
+        total = 100000000 * (10 ** 18);
     }
 
     modifier onlyDistribute() {
